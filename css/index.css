@@ -60,3 +60,19 @@ h1{
   display: inline-block;
   margin-top: 10px;
 }
+
+
+.scroll-zone {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;          /* mitad derecha aprox */
+  height: 100%;
+  background: transparent;
+}
+
+@media (min-width: 701px) {
+  .scroll-zone {
+    display: none;
+  }
+}

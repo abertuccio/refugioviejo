@@ -35,9 +35,14 @@ main {
 
 h1{
     font-family: Montserrat;
-    font-weight: 400;
+    font-weight: 900;
     text-align: center;   /* centra el texto */
     margin: 40px 0 20px;
+}
+
+.logo {
+  display: block;   /* importante para centrar */
+  margin: 10px auto;   /* centrado horizontal */
 }
 
 .linea-sombra {
@@ -54,6 +59,7 @@ h1{
     .footer-text {
   margin-top: 40px;        /* espacio después de los embeds */
   text-align: center;
+  width: 100%;
 }
 
 .footer-text a {

@@ -57,14 +57,14 @@ h1{
     }
 
     .footer-text {
-  margin-top: 40px;        /* espacio después de los embeds */
+  margin-top: 50px;        /* espacio después de los embeds */
   text-align: center;
   width: 100%;
 }
 
 .footer-text a {
   display: inline-block;
-  margin-top: 10px;
+  margin: 0px auto 40px;
 }
 
 .footer-text p{
@@ -97,10 +97,25 @@ h1{
   text-align: center; /* estilo créditos de película */
 }
 
+
+
 .actor {
   display: grid;
   grid-template-rows: auto auto; /* nombre / apellido */
 }
+
+.actor:nth-child(1) {
+  transform: translateX(1.3ch);
+}
+
+.actor:nth-child(2) {
+  transform: translateX(1.5ch);
+}
+
+.actor:nth-child(3) {
+  transform: translateX(0.1ch);
+}
+
 
 .name {
   font-weight: 100;
